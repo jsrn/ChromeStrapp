@@ -9,9 +9,17 @@
         <link rel="stylesheet" href="css/widgets.css">
     </head>
     <body>
-        <ul class="menu-bar">
+        <ul id="menubar">
             <li>File</li>
+            <ul data-name="File">
+                <li>Option 1</li>
+                <li>Option 2</li>
+            </ul>
             <li>Edit</li>
+            <ul data-name="Edit">
+                <li>Option 3</li>
+                <li>Option 4</li>
+            </ul>
             <li>Tools</li>
             <li>Help</li>
         </ul>
@@ -20,5 +28,6 @@
 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/widgets.js"></script>
     </body>
 </html>

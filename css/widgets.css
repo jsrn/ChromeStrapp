@@ -10,6 +10,12 @@ ul.menu-bar
 
 ul.menu-bar li
 {
+	display: none;
+}
+
+ul.menu-bar > li
+{
+	display: inline;
 	height: 20px;
 	line-height: 20px;
 	float: left;
@@ -19,4 +25,15 @@ ul.menu-bar li
 ul.menu-bar li:hover
 {
 	background-color: #ccc;
+}
+
+ul.menu-bar ul
+{
+	width: 150px;
+	list-style: none;
+	position: absolute;
+	top: 20px;
+	margin: 0;
+	padding: 0;
+	background-color: #bbb;
 }
