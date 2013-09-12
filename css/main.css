@@ -21,6 +21,13 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: sans-serif;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
 }
 
 ::selection {
