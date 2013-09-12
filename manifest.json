@@ -1,15 +1,18 @@
 {
-  "name": "ChromeBootstrapp",
-  "description": "A template for packaged chrome apps, based on html5boilerplate.",
-  "version": "0.1",
-  "app": {
-    "background": {
-      "scripts": ["js/main.js"]
-    }
-  },
-  "icons": {
-  	"16": "icon16.png",
-  	"48": "icon48.png",
-  	"128": "icon128.png"
-  }
+	"name": "ChromeBootstrapp",
+	"description": "A template for packaged chrome apps, based on html5boilerplate.",
+	"version": "0.1",
+	"app": {
+		"background": {
+			"scripts": ["js/main.js","js/vendor/jquery-1.10.2.min.js","js/widgets.js"]
+		}
+	},
+	"permissions": [
+	  "notifications"
+	],
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
 }
