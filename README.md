@@ -1,6 +1,6 @@
 # ChromeStrapp
 
-[This blog posts](http://chrome.blogspot.co.uk/2013/09/a-new-breed-of-chrome-apps.html) marked Chrome's 5th birthday, and a big step forward in the way Chrome apps can be delivered, straight to the desktop.
+[This blog post](http://chrome.blogspot.co.uk/2013/09/a-new-breed-of-chrome-apps.html) marked Chrome's 5th birthday, and a big step forward in the way Chrome apps can be delivered, straight to the desktop.
 
 Developing for the web is great, but nobody likes the endless fiddling of cross-browser compatability. When making an app for a single browser, you only have one rendering engine, one API, and one set of supported features to worry about.
 
