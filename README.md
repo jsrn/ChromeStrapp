@@ -8,6 +8,15 @@ To provide a quick start for Chrome specific apps, I decided to piece together t
 
 In the long run, I wouldn't say this is a good idea. I think it's great that we have a lot of browsers, and while it's a pain in the neck making things work on all/as many as possible of them, competition breeds innovation. In "real life" you are unlikely to want to tie yourself down to any one browser, especially if you want people to actually *use* you app, but maybe this will provide a good launch pad.
 
+## Usage
+
+ * Go to chrome://flags.
+ * Find "Experimental Extension APIs", and click its "Enable" link.
+ * Restart Chrome.
+ * `git clone git@github.com:jsrn/ChromeStrapp.git`
+ * **Linux:** `./run.sh  
+   **Windows:** Coming soon.
+
 ## What next?
 
 As I dive into creating apps with this as a base, I want to add the menus and widgets that we've come to expect from our desktop apps.
