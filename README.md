@@ -14,7 +14,7 @@ In the long run, I wouldn't say this is a good idea. I think it's great that we 
  * Find "Experimental Extension APIs", and click its "Enable" link.
  * Restart Chrome.
  * `git clone git@github.com:jsrn/ChromeStrapp.git`
- * **Linux:** `./run.sh  
+ * **Linux:** `./run.sh`  
    **Windows:** Coming soon.
 
 ## What next?
