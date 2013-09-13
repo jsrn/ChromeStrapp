@@ -35,3 +35,19 @@ function alert( text )
     );
     notification.show();
 }
+
+$(function(){
+    $('label.toggle-button').click(function(){
+        var boxID = 'input[name="' + $(this).attr('name') + '"]'
+        if( $(boxID).attr('checked') === undefined )
+        {
+            $(boxID).attr('checked','true')
+            $(this).addClass('checked')
+        }
+        else
+        {
+            $(boxID).removeAttr('checked')
+            $(this).removeClass('checked')
+        }
+    })
+})

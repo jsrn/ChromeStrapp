@@ -46,3 +46,25 @@ ul.menu-bar ul li
 {
 	border-right: solid 1px #bbb;
 }
+
+label.toggle-button
+{
+	-webkit-appearance: button;
+    font: -webkit-small-control;
+    background-color: buttonface;
+    border: 2px outset buttonface;
+    -webkit-writing-mode: horizontal-tb;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    cursor: default;
+}
+
+input.toggle-button
+{
+	display: none;
+}
+
+label.toggle-button.checked
+{
+	background-color: #9BA2A3;
+}
