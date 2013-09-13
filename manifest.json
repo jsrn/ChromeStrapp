@@ -1,5 +1,5 @@
 {
-	"name": "ChromeBootstrapp",
+	"name": "ChromeStrapp",
 	"description": "A template for packaged chrome apps, based on html5boilerplate.",
 	"version": "0.1",
 	"app": {
