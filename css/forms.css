@@ -15,4 +15,12 @@ textarea
 {
 	resize: none;
 	width: 100%;
+	box-sizing: border-box;
+	margin: 2px;
+}
+
+select
+{
+	margin: 2px;
+	width: 100%;
 }
