@@ -13,6 +13,7 @@ ul.menu-bar li
 	display: none;
 	line-height: 20px;
 	padding: 0 10px;
+	font-size: 13px;
 }
 
 ul.menu-bar > li
