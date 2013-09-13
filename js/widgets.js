@@ -19,7 +19,7 @@
             // Do x positioning
             var rect = $(this)[0].getBoundingClientRect();
             entryBlock.css('left', rect.left + 'px')
-            var entries = entryBlock.children().css('display','block')  
+            entryBlock.children().slideDown(75)  
         })
 
         $(menuBar).children('ul').mouseleave(closeAll)
