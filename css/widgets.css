@@ -14,6 +14,7 @@ ul.menu-bar li
 	line-height: 20px;
 	padding: 0 10px;
 	font-size: 13px;
+	text-shadow: 1px 1px #999;
 }
 
 ul.menu-bar > li
