@@ -6,11 +6,11 @@ ul.menu-bar
 	background-color: #A9CEDE;
 	padding: 0;
 	margin: 0;
+	border-bottom: solid 1px #bbb;
 }
 
 ul.menu-bar li
 {
-	display: none;
 	line-height: 20px;
 	padding: 0 10px;
 	font-size: 13px;
@@ -31,6 +31,7 @@ ul.menu-bar li:hover
 
 ul.menu-bar ul
 {
+	display: none;
 	width: 150px;
 	list-style: none;
 	position: absolute;
@@ -38,4 +39,10 @@ ul.menu-bar ul
 	margin: 0;
 	padding: 0;
 	background-color: #A9CEDE;
+	border-bottom: solid 1px #bbb;
+}
+
+ul.menu-bar ul li
+{
+	border-right: solid 1px #bbb;
 }

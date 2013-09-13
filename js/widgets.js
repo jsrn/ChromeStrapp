@@ -6,7 +6,7 @@
 
         var closeAll = function()
         {
-            $(menuBar).children('ul').children('li').css('display','none')
+            $(menuBar).children('ul').slideUp(100)
         }
 
         $(menuBar).addClass('menu-bar')
@@ -17,9 +17,9 @@
 
             var entryBlock = $(this).parent().find("[data-name='" + $(this).text()  + "']");
             // Do x positioning
-            var rect = $(this)[0].getBoundingClientRect();
+            var rect = $(this)[0].getBoundingClientRect()
             entryBlock.css('left', rect.left + 'px')
-            entryBlock.children().slideDown(75)  
+            entryBlock.slideDown(100)  
         })
 
         $(menuBar).children('ul').mouseleave(closeAll)
