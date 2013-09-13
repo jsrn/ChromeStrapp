@@ -25,4 +25,6 @@ function runStrappSample()
 	$('#menubar').menubar()
 
 	$('#date-picker').datepicker()
+
+	$('#tabs').tabs()
 }
