@@ -6,7 +6,7 @@ Developing for the web is great, but nobody likes the endless fiddling of cross-
 
 To provide a quick start for Chrome specific apps, I decided to piece together this simple boilerplate. I've borrowed (stolen) most of the stylesheet from the excellent [html5boilerplate](http://html5boilerplate.com/), but I have removed the cross-browser compatability stuff, allowing me to focus on one thing: making awesome packaged apps for Google Chrome.
 
-In the long run, I wouldn't say this is a good idea. I think it's great that we have a lot of browsers, and while it's a pain in the neck making things work on all/as many as possible of them, competition breeds innovation. In "real life" you are unlikely to want to tie yourself down to any one browser, especially if you want people to actually *use* you app, but maybe this will provide a good launch pad.
+In the long run, I wouldn't say this is a good idea. I think it's great that we have a lot of browsers, and while it's a pain in the neck making things work on all/as many as possible of them, competition breeds innovation. In "real life" you are unlikely to want to tie yourself down to any one browser, especially if you want people to actually *use* your app, but maybe this will provide a good launch pad.
 
 ## Usage
 
