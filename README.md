@@ -21,7 +21,7 @@ In the long run, I wouldn't say this is a good idea. I think it's great that we 
 
 As I dive into creating apps with this as a base, I want to add the menus and widgets that we've come to expect from our desktop apps.
 
-![Strapp Widgets](https://github.com/jsrn/ChromeStrapp/blob/master/assets/strapp.png "Strapp Widgets")
+![Strapp Widgets](https://raw.github.com/jsrn/ChromeStrapp/master/assets/strapp.png "Strapp Widgets")
 
 ## License
 
