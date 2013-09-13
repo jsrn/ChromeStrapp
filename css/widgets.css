@@ -3,7 +3,7 @@ ul.menu-bar
 	list-style: none;
 	display: block;
 	height: 20px;
-	background-color: #bbb;
+	background-color: #A9CEDE;
 	padding: 0;
 	margin: 0;
 }
@@ -11,20 +11,20 @@ ul.menu-bar
 ul.menu-bar li
 {
 	display: none;
+	line-height: 20px;
+	padding: 0 10px;
 }
 
 ul.menu-bar > li
 {
 	display: inline;
 	height: 20px;
-	line-height: 20px;
 	float: left;
-	padding: 0 10px;
 }
 
 ul.menu-bar li:hover
 {
-	background-color: #ccc;
+	background-color: #B4DEF0;
 }
 
 ul.menu-bar ul
@@ -35,5 +35,5 @@ ul.menu-bar ul
 	top: 20px;
 	margin: 0;
 	padding: 0;
-	background-color: #bbb;
+	background-color: #A9CEDE;
 }
