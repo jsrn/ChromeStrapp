@@ -769,6 +769,7 @@ button.ui-button::-moz-focus-inner {
 	border-width: 0;
 	padding: 1em 1.4em;
 	background: none;
+	text-align: left;
 }
 .ui-tooltip {
 	padding: 8px;
@@ -785,11 +786,6 @@ body .ui-tooltip {
 /* Component containers
 ----------------------------------*/
 .ui-widget .ui-widget {
-	font-size: 1em;
-}
-.ui-widget select,
-.ui-widget textarea {
-	font-family: Verdana,Arial,sans-serif;
 	font-size: 1em;
 }
 .ui-widget-content {
