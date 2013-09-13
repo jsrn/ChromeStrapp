@@ -4,18 +4,25 @@
     {
         var menuBar = this
 
+        var closeAll = function()
+        {
+            $(menuBar).children('ul').children('li').css('display','none')
+        }
+
         $(menuBar).addClass('menu-bar')
 
         $(menuBar).children('li').click(function(){
             // Close others
-            $(menuBar).children('ul').children('li').css('display','none')
+            closeAll()
 
             var entryBlock = $(this).parent().find("[data-name='" + $(this).text()  + "']");
             // Do x positioning
             var rect = $(this)[0].getBoundingClientRect();
             entryBlock.css('left', rect.left + 'px')
-            var entries = entryBlock.children().css('display','block')
+            var entries = entryBlock.children().css('display','block')  
         })
+
+        $(menuBar).children('ul').mouseleave(closeAll)
     }
 })(jQuery);
 
