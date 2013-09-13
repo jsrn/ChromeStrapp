@@ -57,6 +57,7 @@ label.toggle-button
     box-sizing: border-box;
     padding: 1px 6px;
     cursor: default;
+    margin: 2px;
 }
 
 input.toggle-button
