@@ -23,4 +23,6 @@ $(document).ready(function () {
 function runStrappSample()
 {
 	$('#menubar').menubar()
+
+	$('#date-picker').datepicker()
 }
