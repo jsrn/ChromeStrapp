@@ -23,6 +23,8 @@
         })
 
         $(menuBar).children('ul').mouseleave(closeAll)
+
+        $(menuBar).children('ul').children('li').click(closeAll)
     }
 })(jQuery);
 
