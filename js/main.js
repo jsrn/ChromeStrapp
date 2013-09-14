@@ -27,4 +27,13 @@ function runStrappSample()
 	$('#date-picker').datepicker()
 
 	$('#tabs').tabs()
+
+	$('ul[data-name="Tabs"] li').click(function(){
+		goToTab( $(this).index() )
+	})
+}
+
+function goToTab( index )
+{
+	$( "#tabs" ).tabs( "option", "active", index );
 }
