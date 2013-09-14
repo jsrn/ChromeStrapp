@@ -3,7 +3,7 @@ label
 	cursor: pointer;
 }
 
-input, textarea
+input, textarea, select[size]
 {
 	border: 1px solid #ddd;
 	background: #fafafa;
