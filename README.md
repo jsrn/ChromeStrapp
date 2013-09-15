@@ -19,7 +19,14 @@ In the long run, I wouldn't say this is a good idea. I think it's great that we 
 
 ## What next?
 
-As I dive into creating apps with this as a base, I want to add the menus and widgets that we've come to expect from our desktop apps.
+The aim of this project is to provide a high quality template that allows developers to quickly produce apps, with immediate access to the useful widgets one expects from a desktop application. There are several things on the way, including (but not limited to):
+
+ * Context menus
+ * Colour pickers
+ * Sliders
+ * Progress bars
+ * File choosers
+ * Prompts
 
 ![Strapp Widgets](https://raw.github.com/jsrn/ChromeStrapp/master/assets/strapp.png "Strapp Widgets")
 
