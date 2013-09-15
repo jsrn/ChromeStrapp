@@ -8,7 +8,8 @@
 		}
 	},
 	"permissions": [
-	  "notifications"
+	  "notifications",
+	  "contextMenus"
 	],
 	"icons": {
 		"16": "icon16.png",
