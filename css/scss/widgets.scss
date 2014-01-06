@@ -1,0 +1,71 @@
+ul.menu-bar
+{
+	list-style: none;
+	display: block;
+	height: 20px;
+	background-color: #c6c6c6;
+	padding: 0;
+	margin: 0;
+	border-bottom: solid 1px #bbb;
+}
+
+ul.menu-bar li
+{
+	line-height: 20px;
+	padding: 0 10px;
+	font-size: 13px;
+	text-shadow: 1px 1px #999;
+}
+
+ul.menu-bar > li
+{
+	display: inline;
+	height: 20px;
+	float: left;
+}
+
+ul.menu-bar li:hover
+{
+	background-color: #dfdfdf;
+}
+
+ul.menu-bar ul
+{
+	display: none;
+	width: 150px;
+	list-style: none;
+	position: absolute;
+	top: 20px;
+	margin: 0;
+	padding: 0;
+	background-color: #c6c6c6;
+	border-bottom: solid 1px #bbb;
+}
+
+ul.menu-bar ul li
+{
+	border-right: solid 1px #bbb;
+}
+
+label.toggle-button
+{
+	-webkit-appearance: button;
+    font: -webkit-small-control;
+    background-color: buttonface;
+    border: 2px outset buttonface;
+    -webkit-writing-mode: horizontal-tb;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    cursor: default;
+    margin: 2px;
+}
+
+input.toggle-button
+{
+	display: none;
+}
+
+label.toggle-button.checked
+{
+	background-color: #9BA2A3;
+}
