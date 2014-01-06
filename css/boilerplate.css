@@ -79,16 +79,6 @@ textarea {
     resize: vertical;
 }
 
-.col3
-{
-    width: 33.3%;
-    float: left;
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
