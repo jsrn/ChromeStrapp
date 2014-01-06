@@ -1,120 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ChromeStrapp</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/boilerplate.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/jquery-ui.css">
-    </head>
-    <body>
-        <ul id="menubar">
-            <li>File</li>
-            <ul data-name="File">
-                <li>Option 1</li>
-                <li>Option 2</li>
-            </ul>
-            <li>Edit</li>
-            <ul data-name="Edit">
-                <li>Option 3</li>
-                <li>Option 4</li>
-            </ul>
-            <li>Tools</li>
-            <li>Tabs</li>
-            <ul data-name="Tabs">
-                <li>Tab One</li>
-                <li>Tab Two</li>
-                <li>Tab Three</li>
-            </ul>
-            <li>Help</li>
-        </ul>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>ChromeStrapp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/boilerplate.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+	</head>
+	<body>
+		<ul id="menubar">
+			<li>File</li>
+			<ul data-name="File">
+				<li>Option 1</li>
+				<li>Option 2</li>
+			</ul>
+			<li>Edit</li>
+			<ul data-name="Edit">
+				<li>Option 3</li>
+				<li>Option 4</li>
+			</ul>
+			<li>Tools</li>
+			<li>Tabs</li>
+			<ul data-name="Tabs">
+				<li>Tab One</li>
+				<li>Tab Two</li>
+				<li>Tab Three</li>
+			</ul>
+			<li>Help</li>
+		</ul>
 
-        <div class="col3">
-            Welcome to ChromeStrapp - the packaged Chrome app boilerplate. 
-            <br><br>
-            The aim of this project is create awesome desktop apps, where Google Chrome is the only dependency.
-        </div>
+		<section class="main">
+			<div class="tabs">
+				<ul>
+					<li><a href="#tabs-1">Hello</a></li>
+					<li><a href="#tabs-2">from</a></li>
+					<li><a href="#tabs-3">ChromeStrapp</a></li>
+				</ul>
+				<div id="tabs-1">
+					Welcome to ChromeStrapp - the packaged Chrome app boilerplate.
+				</div>
+				<div id="tabs-2">
+					The aim of this project is create awesome desktop apps, where Google Chrome is the only dependency.
+				</div>
+				<div id="tabs-3">
+					ChromeStrapp attempts to combine the quality projects we love to provide a set of widgets and styles that you can use to quickly produce good looking desktop applications.
+				</div>
+			</div>
 
-        <div class="col3">
-            ChromeStrapp attempts to provide a set of widgets and styles that you can use to quickly produce good looking desktop applications.
-        </div>
+			<form>
+				<label for="input-with-label">Label:</label>
+				<input id="input-with-label" placeholder="Input with label">
+				
+				<br>
+				
+				<label for="date-picker">Date:</label>
+				<input id="date-picker" placeholder="Date">
+		
+				<br>
 
-        <div class="col3">
-            <div id="tabs">
-                <ul>
-                    <li><a href="#form-tab">Forms</a></li>
-                    <li><a href="#tabs-2">B</a></li>
-                    <li><a href="#tabs-3">C</a></li>
-                </ul>
-                <div id="form-tab">
-                    <label for="input-with-label">Label:</label>
-                    <input id="input-with-label" placeholder="Input with label">
-                    
-                    <br>
-                    
-                    <label for="date-picker">Date:</label>
-                    <input id="date-picker" placeholder="Date">
-             
-                    <br>
+				<button>Button</button>
 
-                    <button>Button</button>
+				<label for="toggle" class="toggle-button" name="toggle-off">Toggle Off</label>
+				<input type="checkbox" id="toggle" class="toggle-button" name="toggle-off">
 
-                    <label for="toggle" class="toggle-button" name="toggle-off">Toggle Off</label>
-                    <input type="checkbox" id="toggle" class="toggle-button" name="toggle-off">
+				<label for="toggle" class="toggle-button checked" name="toggle-on">Toggle On</label>
+				<input type="checkbox" id="toggle" class="toggle-button" name="toggle-on" checked="checked">
 
-                    <label for="toggle" class="toggle-button checked" name="toggle-on">Toggle On</label>
-                    <input type="checkbox" id="toggle" class="toggle-button" name="toggle-on" checked="checked">
+				<br>
 
-                    <br>
+				<label for="check">Check</label>
+				<input type="checkbox" id="check" name="check">
 
-                    <label for="check">Check</label>
-                    <input type="checkbox" id="check" name="check">
+				<label for="radio">Radio</label>
+				<input type="radio" id="radio" name="radio">
 
-                    <label for="radio">Radio</label>
-                    <input type="radio" id="radio" name="radio">
+				<br>
 
-                    <br>
+				<select>
+					<option>The quick brown fox...</option>
+					<option>Lorem ipsum dolor sit amet...</option>
+				</select>
 
-                    <select>
-                        <option>The quick brown fox...</option>
-                        <option>Lorem ipsum dolor sit amet...</option>
-                    </select>
+				<br>
 
-                    <br>
+				<select size="4">
+					<option>Lorem ipsum dolor</option>
+					<option>sit amet, consectetur</option>
+					<option>adipisicing elit.</option>
+					<option>Dolorem, pariatur,</option>
+					<option>maiores velit autem</option>
+					<option>consectetur omnis</option>
+					<option>ut unde earum voluptates</option>
+					<option>vero ipsam nihil</option>
+					<option>libero id necessitatibus</option>
+					<option>dolores minima facere</option>
+					<option>quo voluptatibus.</option>
+				</select>
 
-                    <select size="4">
-                        <option>Lorem ipsum dolor</option>
-                        <option>sit amet, consectetur</option>
-                        <option>adipisicing elit.</option>
-                        <option>Dolorem, pariatur,</option>
-                        <option>maiores velit autem</option>
-                        <option>consectetur omnis</option>
-                        <option>ut unde earum voluptates</option>
-                        <option>vero ipsam nihil</option>
-                        <option>libero id necessitatibus</option>
-                        <option>dolores minima facere</option>
-                        <option>quo voluptatibus.</option>
-                    </select>
+				<br>
 
-                    <br>
-
-                    <textarea>Text Area</textarea>
-                </div>
-                <div id="tabs-2">
-                    <p>Tab 2</p>
-                </div>
-                <div id="tabs-3">
-                    <p>Tab 3</p>
-                </div>
-            </div>
-        </div>
-
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/vendor/jquery-ui.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/widgets.js"></script>
-        <script src="js/contextmenus.js"></script>
-    </body>
+				<textarea>Text Area</textarea>
+			</form>
+		</section>
+		
+		<script src="js/vendor/jquery-1.10.2.min.js"></script>
+		<script src="js/vendor/jquery-ui.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/widgets.js"></script>
+		<script src="js/contextmenus.js"></script>
+	</body>
 </html>

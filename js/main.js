@@ -26,7 +26,7 @@ function runStrappSample()
 
 	$('#date-picker').datepicker()
 
-	$('#tabs').tabs()
+	$('.tabs').tabs()
 
 	$('ul[data-name="Tabs"] li').click(function(){
 		goToTab( $(this).index() )
